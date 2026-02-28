@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cross & Crescent — Map</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+  <div class="app">
+    <main id="map" class="map" aria-label="Map"></main>
+
+    <aside class="panel" aria-label="Information panel">
+      <div class="panel__inner">
+        <div class="panel__hint" id="panelHint">
+          <h2>Explore the map</h2>
+          <p>Hover a marker to preview. Click a marker to view details here.</p>
+        </div>
+
+        <div class="panel__content" id="panelContent" hidden>
+          <h2 class="panel__title" id="panelTitle"></h2>
+          <p class="panel__meta" id="panelMeta"></p>
+          <div class="panel__body" id="panelBody"></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>
