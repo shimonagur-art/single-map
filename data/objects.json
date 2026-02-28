@@ -1,0 +1,12 @@
+[
+  {
+    "id": "obj_001",
+    "title": "Casket",
+    "year": "ca. 1000–1150",
+    "location_label": "Sicily",
+    "lat": 37.5,
+    "lng": 14.0,
+    "thumb": "images/objects/obj_001/thumb.jpg",
+    "panel_html": "<p><strong>Type:</strong> Ivory casket</p><p><strong>Notes:</strong> Short description goes here.</p>"
+  }
+]
