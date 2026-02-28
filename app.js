@@ -43,10 +43,7 @@ async function init() {
     markers.push(marker);
   });
 
-  if (markers.length) {
-    const group = L.featureGroup(markers);
-    map.fitBounds(group.getBounds().pad(0.2));
-  }
+ 
 }
 
 async function loadObjects() {
